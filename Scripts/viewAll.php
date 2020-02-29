@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$con = mysqli_connect("xxx.xx.xxx.xxx", "ljohnso8Arden", "webbook", "ljohnso8DBwebbook");
+$con = mysqli_connect("xxx.xx.xxx.xxx", "xxxxxxxxx", "xxxxxxx", "ljohnxxxxxxxook");
 if (! $con) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     die('Could not connect: ' . mysqli_error($con));
@@ -9,7 +9,7 @@ if (! $con) {
     echo "Successful Connection to Database<br>";}
 
     $index = intval($_GET['index']);
-    $sql = "SELECT * FROM ljohnso8DBwebbook.Contacts order by id limit 100 ;  ";
+    $sql = "SELECT * FROM ljohnxxxxxxxxook.Contacts order by id limit 100 ;  ";
     $result = mysqli_query($con, $sql);
     
     if (mysqli_errno($con) != 0) {

@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$con = mysqli_connect("xxx.x.xxx.xxx", "ljohnso8Arden", "webbook", "ljohnso8DBwebbook");
+$con = mysqli_connect("xxx.x.xxx.xxx", "lxxxxxArden", "webbook", "lxxxxxxDBwebbook");
 if (! $con) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     die('Could not connect: ' . mysqli_error($con));
@@ -9,7 +9,7 @@ if (! $con) {
     echo "Connected to mySQL successfully. <br>";}
 
 $id = $_GET['primaryKey'];
-$sqlDelete = "DELETE FROM ljohnso8DBwebbook.Contacts WHERE id='$id'";
+$sqlDelete = "DELETE FROM ljohxxoxDBxxxxxx.Contacts WHERE id='$id'";
  if(mysqli_query($con, $sqlDelete)){
      echo "Record deleted succesfully";
  }else{

@@ -2,7 +2,7 @@
 
 session_start();
 
-$con = mysqli_connect("xxx.xx.xxx.xxx", "ljohnso8Arden", "webbook", "ljohnso8DBwebbook");
+$con = mysqli_connect("xxx.xx.xxx.xxx", "xxxxoxxden", "xxxxxxxk", "ljoxxxxxxxook");
 
     if (! $con) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
@@ -22,7 +22,7 @@ $con = mysqli_connect("xxx.xx.xxx.xxx", "ljohnso8Arden", "webbook", "ljohnso8DBw
     $newWeb = $_GET['newWeb'];
     
     
-    $sql ="UPDATE ljohnso8DBwebbook.Contacts SET first ='$newFirst', last='$newLast', phone='$newPhone', mobile='$newMobile', fax='$newFax', email='$newEmail', web='$newWeb' WHERE id = '$id'";
+    $sql ="UPDATE xjxxxxxxxbbook.Contacts SET first ='$newFirst', last='$newLast', phone='$newPhone', mobile='$newMobile', fax='$newFax', email='$newEmail', web='$newWeb' WHERE id = '$id'";
     
 
     
