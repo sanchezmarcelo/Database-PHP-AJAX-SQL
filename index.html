@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Project 3</title>
+<link rel="stylesheet" href="CSS/style.css">
+<script src="Scripts/script.js"></script>
+</head>
+<body id="body">
+<div id="contactNav">Marcelo's Contact Database</div>
+	
+	<div id="firstForm">
+	<div id="newContact">New Contact</div>
+		<form action="Scripts/newContact.php" method="get">
+		First Name:<br>
+		<input type="text" name="first" required><br>
+		Last Name:<br>
+		<input type="text" name="last" required><br>
+		Phone:<br>
+		<input type="text" name="phone" required><br>
+		Mobile:<br>
+		<input type="text" name="mobile" required><br>
+		Fax:<br>
+		<input type="text" name="fax" required><br>
+		Email:<br>
+		<input type="text" name="email" required><br>
+		Web:<br>
+		<input type="text" name="web" required><br>
+		<input type="submit" value="Add Contact">
+		</form>
+	</div>
+
+	
+	<div id="secondForm">
+	<div id="deleteContact">Delete Contact</div>
+		<form action="Scripts/deleteContact.php" method="get"> 
+		Contact ID:<br>
+		<input type="text" name="primaryKey" required><br>
+		<input type="submit" value="Delete Contact">
+		</form>
+	</div>
+
+	
+	<div id="thirdForm">
+	<div id="updateContact">Update Contact</div>
+	<form action="Scripts/updateContact.php" method="get">
+		Contact ID:<br>
+		<input type="text" name="primaryKey" required><br>
+		New First Name:<br>
+		<input type="text" name="newFirst" required><br>
+		New Last Name:<br>
+		<input type="text" name="newLast" required><br>
+		New Phone:<br>
+		<input type="text" name="newPhone" required><br>
+		New Mobile:<br>
+		<input type="text" name="newMobile" required><br>
+		New Fax:<br>
+		<input type="text" name="newFax" required><br>
+		New Email:<br>
+		<input type="text" name=newEmail required><br>
+		New Web:<br>
+		<input type="text" name="newWeb" required><br>
+		<input type="submit" value="Update Contact">
+		</form>
+	</div>
+	
+	<div id="viewAll">
+	<a href="Scripts/viewAll.php">View All Contacts</a>
+	</div>	
+
+	<div id="banner">
+		<button type="button" onclick="loadDoc()">Click to see AJAX</button>
+	</div>	
+
+</body>
+<footer>
+</footer>
+</html>

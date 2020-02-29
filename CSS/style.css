@@ -1,0 +1,63 @@
+#body{
+	//background-image: url("background.jpg");
+}
+
+
+#contactNav{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+ 	
+}
+
+#deleteContact{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 280px;
+}
+
+#newContact{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 46px;
+}
+
+#updateContact{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+
+#viewAll{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 24px;
+	
+}
+
+
+#firstForm{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#secondForm{
+	margin-top: 10px;
+	margin-bottom: 100px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#thirdForm{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
